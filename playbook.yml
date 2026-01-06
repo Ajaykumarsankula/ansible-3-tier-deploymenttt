@@ -3,7 +3,7 @@
   become: yes
 
   vars:
-    repo_url: "https://github.com/CloudTechDevOps/2nd10WeeksofCloudOps-main.git"
+    repo_url: "https://github.com/Ajaykumarsankula/2nd10WeeksofCloudOps-main.git"
     app_path: "/root/veera/"
     frontend_image: "frontend-app:latest"
     backend_image: "backend-app:latest"
@@ -15,6 +15,7 @@
   roles:
     - common
     - gitclone
-    - frontend
     - backend
+    - frontend
+   
 
